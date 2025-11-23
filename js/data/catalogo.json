@@ -1,0 +1,88 @@
+{
+    "plans": [
+      {
+        "id": "basic",
+        "name": "Plan Básico",
+        "description": "Ideal para probar diferentes cafés cada mes.",
+        "priceMonthly": 45000,
+        "features": [
+          "1 bolsa de 250g al mes",
+          "Envío estándar",
+          "Selección manual de café"
+        ],
+        "maxBrandsToChoose": 1
+      },
+      {
+        "id": "standard",
+        "name": "Plan Estándar",
+        "description": "Para amantes del café que quieren variedad constante.",
+        "priceMonthly": 85000,
+        "features": [
+          "2 bolsas de 250g al mes",
+          "Envío prioritario",
+          "Acceso a cafés especiales"
+        ],
+        "maxBrandsToChoose": 2
+      },
+      {
+        "id": "premium",
+        "name": "Plan Premium",
+        "description": "Experiencia completa con cafés de especialidad.",
+        "priceMonthly": 130000,
+        "features": [
+          "3 bolsas de 250g al mes",
+          "Envío gratis",
+          "Cafés de origen único",
+          "Acceso a ediciones limitadas"
+        ],
+        "maxBrandsToChoose": 3
+      }
+    ],
+    "coffeeBrands": [
+      {
+        "id": "brand_juan_valdez",
+        "name": "Juan Valdez",
+        "origin": "Colombia",
+        "description": "Café colombiano de alta calidad.",
+        "grindOptions": [
+          { "id": "whole", "label": "En grano" },
+          { "id": "espresso", "label": "Molienda Espresso" },
+          { "id": "filter", "label": "Molienda para filtro" },
+          { "id": "french_press", "label": "Molienda para prensa francesa" }
+        ],
+        "images": {
+          "logo": "img/brands/juan_valdez_logo.png",
+          "banner": "img/brands/juan_valdez_banner.jpg"
+        }
+      },
+      {
+        "id": "brand_devocion",
+        "name": "Devoción",
+        "origin": "Colombia",
+        "description": "Café de origen con tueste reciente.",
+        "grindOptions": [
+          { "id": "whole", "label": "En grano" },
+          { "id": "filter", "label": "Molienda para filtro" }
+        ],
+        "images": {
+          "logo": "img/brands/devocion_logo.png",
+          "banner": "img/brands/devocion_banner.jpg"
+        }
+      },
+      {
+        "id": "brand_local",
+        "name": "Café Local",
+        "origin": "Micro-lotes Colombia",
+        "description": "Pequeños productores, café artesanal.",
+        "grindOptions": [
+          { "id": "whole", "label": "En grano" },
+          { "id": "espresso", "label": "Molienda Espresso" },
+          { "id": "filter", "label": "Molienda para filtro" }
+        ],
+        "images": {
+          "logo": "img/brands/local_logo.png",
+          "banner": "img/brands/local_banner.jpg"
+        }
+      }
+    ]
+  }  
